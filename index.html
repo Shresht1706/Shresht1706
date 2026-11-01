@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shresht Sanjay Prasad – AI Engineer</title>
+<meta name="description" content="Shresht Sanjay Prasad: AI DevOps engineer. Reinforcement learning, LLMs and full-stack AI products.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<header class="bar"><div class="wrap">
+  <strong>Shresht</strong>
+  <nav aria-label="Main"><a href="#work">Work</a><a href="#projects">Projects</a><a href="#life">Life</a><a href="#contact">Contact</a></nav>
+  <button class="ico" id="theme" aria-label="Switch light or dark theme">Light</button>
+</div></header>
+<main>
+<section class="wrap hero" id="top">
+  <div>
+    <h1>Shresht<br>Sanjay Prasad</h1>
+    <p class="lead"><b>AI DevOps Engineer</b> in Germany. I build AI systems that learn, and the software that puts them in front of real users.</p>
+    <div class="row"><a class="btn" href="#projects">See my projects</a><a class="btn ghost" href="#contact">Get in touch</a></div>
+  </div>
+  <figure class="portrait tilt" data-file="images/portrait.jpg"><img src="images/portrait.jpg" alt="Portrait of Shresht"></figure>
+</section>
+
+<div class="marquee" aria-hidden="true"><div id="mq"></div></div>
+
+<section class="wrap stats">
+  <div><b data-n="90000" data-s="+">0</b><span>users on my Forex alert bot</span></div>
+  <div><b data-n="70" data-s="+">0</b><span>issues found testing AI products</span></div>
+  <div><b data-n="5">0</b><span>enterprise dashboards built</span></div>
+  <div><b data-n="1">0</b><span>published research paper</span></div>
+</section>
+
+<section class="wrap" id="work"><h2>Experience</h2><div id="jobs"></div></section>
+
+<section class="wrap" id="projects"><h2>Projects</h2><div class="grid" id="grid"></div>
+  <p class="card pub"><strong>Published:</strong> Lightweight Reinforcement Learning for Real-Time Lunar Landing Control (MDPI, Dec 2025). <a id="paper" href="#">Read the paper</a></p>
+</section>
+
+<section class="wrap" id="life"><h2>Beyond the code</h2>
+  <p class="sub">Karate, guitar, debating, strays, PCs and long drives. Tap a photo to enlarge it.</p>
+  <div class="chips" id="chips" role="group" aria-label="Filter photos"></div>
+  <div class="gallery" id="gallery"></div>
+</section>
+
+<section class="wrap" id="contact"><div class="card contact">
+  <h2>Let's talk</h2>
+  <div class="mail" id="mail"></div>
+  <div class="row c"><button class="btn" id="copy">Copy email</button><a class="btn ghost" id="mailto" href="#">Open mail app</a><a class="btn ghost" id="li" href="#">LinkedIn</a><a class="btn ghost" id="gh" href="#">GitHub</a></div>
+</div></section>
+</main>
+<footer>© <span id="yr"></span> Shresht Sanjay Prasad</footer>
+
+<dialog id="lb"><img alt=""><p></p><button class="ico" aria-label="Close">Close</button></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="js/bg.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
